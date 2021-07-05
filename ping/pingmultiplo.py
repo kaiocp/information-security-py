@@ -1,0 +1,10 @@
+import os
+
+with open('hosts.txt') as file:
+    dump = file.read()
+    dump = dump.splitlines()
+
+    for ip in dump:
+        p
+        os.system('ping -m 2 {}'.format(ip))
+
